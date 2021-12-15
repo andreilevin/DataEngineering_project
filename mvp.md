@@ -1,23 +1,19 @@
-# Andrei's DL Project MVP
+# Andrei's Engineering Project MVP
 
-I'm working on a program that can play the game SET by recognizing the color, number, shading, and shape for each card in photograph of a 12-card hand.  To source my data, I took 56 photographs of seven 12-card hands such that each individual card is featured 8 times  (2 different surfaces x 2 different times of day x 2 different angles).
+My project goal is to create a web app that predicts an NBA's market value based on their current in-season stats.
 
-Using OpenCV, I wrote a program that identifies cards in each hand and extracts them into a square image, as shown below:
+So far, I have managed to:
 
-<img src="https://raw.githubusercontent.com/andreilevin/DL_project/main/mvp_figs/mvpfig1.png"  width="600" />
+* Scrape basketball-reference and hoopshype for previous years data (used for training my model)
+* Train my model and save model parameters 
+* Scrape basketball-reference to update the current stats
 
-<img src="https://raw.githubusercontent.com/andreilevin/DL_project/main/mvp_figs/mvpfig2.png"  width="600" />
+I still need to:
 
-<img src="https://raw.githubusercontent.com/andreilevin/DL_project/main/mvp_figs/mvpfig3.png"  width="600" />
+* Convert my CSV tables to SQL databases in order to satisfy one of the project criteria
+* Create a streamlit app
+* Deploy the streamlit app online (to heroku or streamlit.io?  suggestions welcome)
+* Use apache airflow or cron to schedule daily updates
 
-Now I need to figure out a way to:
 
-(1) Save the 672 extracted card images as my training data and label the classes
 
-(2) Figure out how much and what type of data augmentation to do (some obvious candidates are the four 90-degree rotations and blurring)
-
-(3)  Train 4 individual neural networks (one on the full color images and three on grayscale images)
-
-(4) ??
-
-(5) Profit
