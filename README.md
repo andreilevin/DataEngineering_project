@@ -1,4 +1,4 @@
-# MoneyBBall 
+# MoneyB-ball 
 
 ### Predicting the market value of NBA players from in-season stats 
 
@@ -21,6 +21,8 @@ The workflow consists of four main steps.  In order:
 * From within this directory, run `python current-scrape.py`  in terminal followed by `python current-predict.py`  This will update the dataframe `data/df_marketvalues.csv` with the current season stats and corresponding market value predictions. 
 
 * Push the updated `df_marketvalues.csv` file to github.  The streamlit app should update automatically.
+
+* __App Code__:  [streamlit-app.py](https://github.com/andreilevin/DataEng_project/blob/main/streamlit-app.py)
 
 * __App Website__:  https://share.streamlit.io/andreilevin/dataeng_project/main/streamlit-app.py
 
