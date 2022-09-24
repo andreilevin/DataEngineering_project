@@ -6,11 +6,11 @@
 
 [![AndreiPresentation.pdf:](https://raw.githubusercontent.com/andreilevin/DataEng_project/main/cover_slide.jpg)](https://github.com/andreilevin/DataEng_project/blob/main/AndreiPresentation.pdf)
 
-### Summary
+## Summary
 
 In an [earlier project](https://github.com/andreilevin/Regression_project/) I used a linear regression model to predict the salary of NBA free agents based on their previous year's stats.  Here I optimized the scraping and cleaning workflow and deployed the model to a rudimentary web app that could be updated daily over the course of an NBA season.
 
-### Workflow
+## Workflow
 
 1. Scrape and clean the past 5 years of free agent stats (from basketball-reference.com) and salaries (from hoopshype.com) and store the the data locally in the [data/](https://github.com/andreilevin/DataEng_project/tree/main/data)  folder.   This only needs to be done once a year and is best done in a jupyter notebook:  [model-scrape.ipynb](https://github.com/andreilevin/DataEng_project/blob/main/notebooks/model-scrape.ipynb)
 
@@ -21,7 +21,7 @@ In an [earlier project](https://github.com/andreilevin/Regression_project/) I us
 4. After updating the current-season stats, we update the corresponding market value predictions as well by running [current-predict.py](https://github.com/andreilevin/DataEng_project/blob/main/current-predict.py)
 
 
-### Running the Web App:
+## Running the Web App:
 
 * From within this directory, run `python current-scrape.py`  in terminal followed by `python current-predict.py`  This will update the dataframe `data/df_marketvalues.csv` with the current season stats and corresponding market value predictions. 
 
