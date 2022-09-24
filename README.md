@@ -1,6 +1,6 @@
-# Money B-ball
+# MoneyB-ball
 
-**Note**:  *This is another early version of what later became the more sophisticated [Hoops Hero](https://github.com/andreilevin/HoopsHero) project.*
+**Note**:  *This is another early iteration of what later became the more sophisticated [Hoops Hero](https://github.com/andreilevin/HoopsHero) project. For Hoops Hero, I scrapped the regression model altogether and used a random forest classifier instead.*
 
 ### Project Presentation [Slides](https://github.com/andreilevin/DataEng_project/blob/main/AndreiPresentation.pdf): 
 
@@ -8,8 +8,7 @@
 
 ### Summary
 
-
-In an [earlier project](https://github.com/andreilevin/Regression_project/) I used a linear regression model to predict the salary of NBA free agents based on their previous year's stats.  Here I optimized the scraping and cleaning workflow and deployed the model to a rudimentary web app that could be updated daily over the course of an NBA season.   
+In an [earlier project](https://github.com/andreilevin/Regression_project/) I used a linear regression model to predict the salary of NBA free agents based on their previous year's stats.  Here I optimized the scraping and cleaning workflow and deployed the model to a rudimentary web app that could be updated daily over the course of an NBA season.
 
 ### Workflow
 
