@@ -8,11 +8,11 @@
 
 ## Summary
 
-In an [earlier project](https://github.com/andreilevin/Regression_project/) I used a linear regression model to predict the salary of NBA free agents based on their previous year's stats.  Here I optimized the scraping and cleaning workflow and deployed the model to a basic web app that could be updated daily over the course of an NBA season.
+In an [earlier project](https://github.com/andreilevin/Regression_project/) I used a linear regression model to predict the salary of NBA free agents based on their previous year's stats.  Here I optimized the scraping and cleaning workflow and deployed the model to a basic web app that could be updated daily with new player stats over the course of an NBA season.
 
 ## Workflow
 
-1. Scrape and clean the past 5 years of free agent stats (from basketball-reference.com) and salaries (from hoopshype.com) and store the the data locally in the [data/](https://github.com/andreilevin/DataEng_project/tree/main/data)  folder.   This only needs to be done once a year and is best done in a jupyter notebook:  [model-scrape.ipynb](https://github.com/andreilevin/DataEng_project/blob/main/notebooks/model-scrape.ipynb)
+1. Scrape and clean the past 5 years of free agent stats (from basketball-reference.com) and salaries (from hoopshype.com) and store the the data locally in the ```data/``` folder.  This only needs to be done once a year:  [model-scrape.ipynb](https://github.com/andreilevin/DataEng_project/blob/main/notebooks/model-scrape.ipynb)
 
 2. Use this data to train a regression model and save the resulting model parameters locally in a ```.pkl``` file.  This also only needs to be done once a year:  [model-fit.ipynb](https://github.com/andreilevin/DataEng_project/blob/main/notebooks/model-fit.ipynb)
 
